@@ -1,4 +1,4 @@
-# rahman_xception_global
+# rahman_xception_global_model
 
 The code here is of plain Xception network and global pooling Xception network tried on DDSM-CBIS dataset. The dadaset can be found at the personal goggle drive of sagardeepdeb@gmail.com. 
 The features were extracted initially from Xception network and later taken from different convolutional blocks of the same network. 
