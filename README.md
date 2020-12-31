@@ -7,7 +7,7 @@ The model of our modified Xception arcitecture is shown in figure 1.
 
 For classification we have used Deep learning based ensemble classifier. Initially the features were extracted using the modified Xception Network as shown in the figure. Later on the extracted features were provided to the stacked ensemble classifier. We have used 5 different ANN classifiers to form the stacked ensemble classifier. The performance of the five individual ANN classifier and the stacked classifier is given in the table below.
 
-# ANN classifier | Performance
+No. of ANN classifier | Performance
 ------------ | -------------
 1 | 76.90
 2 | 80.5
