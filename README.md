@@ -17,3 +17,12 @@ No. of ANN classifier | Performance
 __Stacked Ensemble Classifier__ | __84.30__
 
 As shown in the table above, the strategy employed by us provided better results.
+
+
+# References 
+
+The codes are heavily inspired from the following repositories.
+
+
+1 ) https://github.com/sara-kassani/APTOS-2019/blob/master/APTOS_MultiClass_Ben_noAug_Xception_modified_ML_without_LGBM.ipynb <br/>
+2 ) https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
