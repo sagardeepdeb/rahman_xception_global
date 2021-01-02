@@ -16,7 +16,9 @@ For classification we have used Deep learning based ensemble classifier. Initial
 
 Sl no. of the classifier | Performance
 ------------ | -------------
-1 | 76.90
+<p align="center">
+    // 1
+</p> | 76.90
 2 | 80.5
 3 | 80.9
 4 | 74.2
