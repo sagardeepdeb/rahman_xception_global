@@ -1,9 +1,16 @@
 # Modified Xception model for classification and detection of Breast Cancer 
 
-This github repositories presents a modified Xception architecture for detection and classification of breast Cancer. The Xception architecture has an input shape of 224 x 224 x 3. The mammogram that needs to be classified is of shape more than 4000 X 2000. So instead of reshaping the mammogram as reshaping would seriously compromise with the quality of the input images, we extracted the ROIs containing the mass and used the modified Xception architecture to exctract features. 
+This github repositories presents a modified Xception architecture for detection and classification of breast Cancer. The Xception architecture has an input shape of 224 x 224 x 3. The mammogram that needs to be classified is of shape more than 4000 X 2000. So instead of reshaping the mammogram as reshaping would seriously compromise with the quality of the input images, we extracted the ROIs containing the mass and used the modified Xception architecture to exctract features. Example of a ROI extracted is shown below,
+
+
+<img src="https://github.com/sagardeepdeb/rahman_xception_global/blob/main/enhanced_dataset/benign/Mass-Test_P_00099_LEFT_MLO_ROI_Mass_B_1.png%20.png" alt="(b)" width="200" height="200"> <img src="https://github.com/sagardeepdeb/rahman_xception_global/blob/main/enhanced_dataset/benign/Mass-Test_P_00278_RIGHT_MLO_ROI_Mass_B_1.png%20.png" alt="alt text" width="200" height="200"> <br/> Some examples of Benign ROIs (After Pre-processing)
+
+
+<img src="https://github.com/sagardeepdeb/rahman_xception_global/blob/main/enhanced_dataset/malignant/Mass-Test_P_00324_RIGHT_MLO_ROI_Arch_M_1.png%20.png" alt="(a)" width="200" height="200"> <img src="https://github.com/sagardeepdeb/rahman_xception_global/blob/main/enhanced_dataset/malignant/Mass-Test_P_00514_LEFT_MLO_ROI_Mass_M_1.png%20.png" alt="alt text" width="200" height="200"> <br/> Some examples of Malignant ROIs(After Pre-processing)
+
 
 The model of our modified Xception arcitecture is shown in figure 1.
-![Figure 1](https://github.com/sagardeepdeb/rahman_xception_global/blob/main/model.PNG)
+![Figure 5](https://github.com/sagardeepdeb/rahman_xception_global/blob/main/model.PNG)
 
 For classification we have used Deep learning based ensemble classifier. Initially the features were extracted using the modified Xception Network as shown in the figure. Later on the extracted features were provided to the stacked ensemble classifier. We have used 5 different ANN classifiers to form the stacked ensemble classifier. The performance of the five individual ANN classifier and the stacked classifier is given in the table below.
 
